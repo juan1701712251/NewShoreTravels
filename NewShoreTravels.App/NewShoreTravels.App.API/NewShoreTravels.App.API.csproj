@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NewShoreTravels.App.Business\NewShoreTravels.App.Business.csproj" />
+    <ProjectReference Include="..\NewShoreTravels.App.DataAccess\NewShoreTravels.App.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

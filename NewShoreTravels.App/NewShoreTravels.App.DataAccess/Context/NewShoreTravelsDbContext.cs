@@ -19,7 +19,7 @@ namespace NewShoreTravels.App.DataAccess.Context
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            var connectionStringBuilder = new SqliteConnectionStringBuilder { DataSource = "../Temp/routesDB.db" };
+            var connectionStringBuilder = new SqliteConnectionStringBuilder { DataSource = "routesDB.db" };
             var connectionString = connectionStringBuilder.ToString();
             var connection = new SqliteConnection(connectionString);
 

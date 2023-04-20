@@ -10,6 +10,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "7.0.4",
           "NewShoreTravels.App.Business": "1.0.0",
+          "NewShoreTravels.App.DataAccess": "1.0.0",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {

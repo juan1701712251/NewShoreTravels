@@ -20,7 +20,26 @@ namespace NewShoreTravels.App.Business.Services
         }
         public Journey GetJourney(string origin, string destination)
         {
-            throw new NotImplementedException();
+            Journey journey;
+            try
+            {
+                // Find into local repository if exist a journey with that origin and destination
+                journey = _journeyRepository.GetJourney(origin, destination);
+
+                if (journey == null)
+                {
+                    // Find into extern NewShoreTravelsAPI
+                    // TO DO
+
+                    // Save journey into local repository to use future
+                    // TO DO
+                }
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+            return journey;
         }
     }
 }

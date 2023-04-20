@@ -18,7 +18,7 @@ namespace NewShoreTravels.App.DataAccess.Repositories
         }
         public Journey GetJourney(string origin, string destination)
         {
-            throw new NotImplementedException();
+            return _dbContext.Journeys.FirstOrDefault(j => j.Origin == origin && j.Destination == destination);
         }
 
         public bool SaveJourney(Journey journey)

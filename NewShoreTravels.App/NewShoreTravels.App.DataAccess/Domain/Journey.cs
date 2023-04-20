@@ -12,10 +12,10 @@ namespace NewShoreTravels.App.DataAccess.Domain
         [Key]
         public string ID { get; set; }
         [MaxLength(100)]
-        string Origin { get; set; }
+        public string Origin { get; set; }
         [MaxLength(100)]
-        string Destination { get; set; }
-        double Price { get; set; }
+        public string Destination { get; set; }
+        public double Price { get; set; }
 
         // List of Flights
         List<Flight> Flights { get; set; }
