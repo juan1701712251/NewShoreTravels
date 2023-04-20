@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.Business\\NewShoreTravels.App.Business.csproj": {}
+    "R:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.Business\\NewShoreTravels.App.Business.csproj": {}
   },
   "projects": {
-    "G:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.Business\\NewShoreTravels.App.Business.csproj": {
+    "R:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.Business\\NewShoreTravels.App.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.Business\\NewShoreTravels.App.Business.csproj",
+        "projectUniqueName": "R:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.Business\\NewShoreTravels.App.Business.csproj",
         "projectName": "NewShoreTravels.App.Business",
-        "projectPath": "G:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.Business\\NewShoreTravels.App.Business.csproj",
-        "packagesPath": "C:\\Users\\GOMEZ\\.nuget\\packages\\",
-        "outputPath": "G:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.Business\\obj\\",
+        "projectPath": "R:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.Business\\NewShoreTravels.App.Business.csproj",
+        "packagesPath": "C:\\Users\\juang\\.nuget\\packages\\",
+        "outputPath": "R:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\GOMEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,7 +27,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "R:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.DataAccess\\NewShoreTravels.App.DataAccess.csproj": {
+                "projectPath": "R:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.DataAccess\\NewShoreTravels.App.DataAccess.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -55,7 +59,88 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "R:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.DataAccess\\NewShoreTravels.App.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "R:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.DataAccess\\NewShoreTravels.App.DataAccess.csproj",
+        "projectName": "NewShoreTravels.App.DataAccess",
+        "projectPath": "R:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.DataAccess\\NewShoreTravels.App.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\juang\\.nuget\\packages\\",
+        "outputPath": "R:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\juang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

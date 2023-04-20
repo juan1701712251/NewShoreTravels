@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.DataAccess\\NewShoreTravels.App.DataAccess.csproj": {}
+    "R:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.DataAccess\\NewShoreTravels.App.DataAccess.csproj": {}
   },
   "projects": {
-    "G:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.DataAccess\\NewShoreTravels.App.DataAccess.csproj": {
+    "R:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.DataAccess\\NewShoreTravels.App.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.DataAccess\\NewShoreTravels.App.DataAccess.csproj",
+        "projectUniqueName": "R:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.DataAccess\\NewShoreTravels.App.DataAccess.csproj",
         "projectName": "NewShoreTravels.App.DataAccess",
-        "projectPath": "G:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.DataAccess\\NewShoreTravels.App.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\GOMEZ\\.nuget\\packages\\",
-        "outputPath": "G:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.DataAccess\\obj\\",
+        "projectPath": "R:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.DataAccess\\NewShoreTravels.App.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\juang\\.nuget\\packages\\",
+        "outputPath": "R:\\Mi unidad\\NewShoreTravels\\NewShoreTravels.App\\NewShoreTravels.App.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\GOMEZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\juang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,32 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
